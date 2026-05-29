@@ -7,10 +7,10 @@ public class Pattern1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number:- ");
-        int N = sc.nextInt();
+        int n = sc.nextInt();
 
-        for(int i = 1; i <= N; i++) {
-            for(int j = 1; j <= N; j++) {
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= n; j++) {
                 System.out.print("* ");
             }
             System.out.println();
