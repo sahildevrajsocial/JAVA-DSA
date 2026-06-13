@@ -18,4 +18,4 @@ public class CountDigits {
     }
 }
 
-// count digits
+// count digit
