@@ -27,3 +27,6 @@ public class CustomComparators1 {
         System.out.println(al);
     }
 }
+
+// custom operator
+//
