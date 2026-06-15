@@ -19,3 +19,5 @@ public class LinkedLists {
         System.out.println(ll.contains(11));
     }
 }
+
+//streak saved
