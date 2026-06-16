@@ -9,12 +9,11 @@ public class CountOddDigits {
         int num = sc.nextInt();
 
         int count = 0;
-        int divisor = 10;
         while(num > 0) {
-            if(num%divisor != 0) {
+            if(num%2 != 0) {
                 count++;
             }
-            divisor *= 10;
+            num /= 10;
         }
         System.out.println(count);
     }
