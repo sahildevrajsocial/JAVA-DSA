@@ -14,5 +14,10 @@ public class Basics {
         int[][] arrr = {{6, 5}, {7, 8, 9}, {7, 4, 3}, {8}};
         System.out.println(arrr[1][2]);
 
+        System.out.println("For loop traverse");
+        for(int i = 0; i < 5; i ++) {
+            System.out.println(arr[i]);
+        }
+
     }
 }
