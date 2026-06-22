@@ -2,7 +2,7 @@ package com.devraj.strings;
 
 import java.util.Scanner;
 
-public class ReverseString {
+public class ReverseStringBrute {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
