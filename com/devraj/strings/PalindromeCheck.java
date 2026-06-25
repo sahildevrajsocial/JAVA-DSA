@@ -26,3 +26,5 @@ public class PalindromeCheck {
         System.out.println(palindromeCheck(s));
     }
 }
+
+// streak save
