@@ -31,6 +31,10 @@ public class HashingCharacters {
             hash[arr[i]]++;
         }
 
+        //Taking number of quries and remaining a while loop til q-->0 where we take number to check frequency, under
+        //which we make an if else condition where if num is greater than 0 and less than the size of hash, it will print
+        //frequency of that num
+
         System.out.print("Enter numbers of queries:- ");
         int q = sc.nextInt();
 
