@@ -15,6 +15,9 @@ class SumOfArray {
     }
 }
 
+// here 0 in arraySum(0, arr) is used to pass it to the private int func that is func(int i, int[] arr), which is later
+// used to call itself by i+1 that is return arr[i]+func(i+1, arr)
+
 public class SumOfArrayElements {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
