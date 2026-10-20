@@ -55,7 +55,6 @@ class MergeSorted {
 public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {3,2,4,5,3,2,6,7,8,4,5,0,4,5};
-        int n = arr.length - 1;
         MergeSorted ms = new MergeSorted();
         System.out.println(Arrays.toString(ms.mergeSort(arr)));
     }
